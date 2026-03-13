@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevStudio - Portofolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <div class="navbar__logo">
+      <button id="dark-toggle" class="btn-primary theme-toggle">
+        🌙 Dark Mode
+      </button>
+    </div>
+
+    <ul class="navbar__links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#profile">About</a></li>
+      <li><a href="#edu-exp">Education</a></li>
+      <li><a href="#portfolio">Portofolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="navbar__cta">
+      <a href="#contact" class="btn-primary">Hire Me</a>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero__content">
+      <span class="hero__badge">Available for Work</span>
+      <h1 class="hero__title">
+        Hi, saya <span class="highlight">M Marvin Syahid</span><br>
+        Web Developer
+      </h1>
+      <p class="hero__desc">
+        Saya membangun website yang cepat, responsif, dan profesional.
+      </p>
+      <div class="hero__actions">
+        <a href="#portfolio" class="btn-primary">Lihat portofolio</a>
+        <a href="#contact" class="btn-outline">Hubungi Saya</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="profile">
+    <div class="container">
+      <div class="about-header">
+        <h2>Tentang Saya</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="about-layout">
+        <div class="profile-wrapper">
+          <div class="profile-ring">
+            <img src="Profil.png" alt="Foto Marvin">
+          </div>
+        </div>
+
+        <div class="about-left">
+          <p>
+            Halo! Perkenalkan nama saya <strong>Muhammad Marvin Syahid</strong>. Saya lahir di
+            P.Brandan pada tanggal <strong>18 Maret 2006</strong>. Saat ini saya seorang
+            Mahasiswa <strong>Di Universitas Muhammadiyah Sumatera Utara</strong> di Fakultas Ilmu Komputer Dan
+            Teknologi
+            Informasi.
+          </p>
+          <p>
+            Saya memiliki ketertarikan yang besar dalam bidang teknologi,
+            terutama <em>web development</em> dan <em>artificial intelligence</em>.
+            Saya selalu bersemangat untuk belajar hal-hal baru dan mengembangkan
+            keterampilan saya.
+          </p>
+
+          <div class="about-right">
+            <div class="card">
+              <span>NAMA</span>
+              <p>Muhammad Marvin Syahid</p>
+            </div>
+            <div class="card">
+              <span>TANGGAL LAHIR</span>
+              <p>18 Maret 2006</p>
+            </div>
+            <div class="card">
+              <span>ALAMAT</span>
+              <p>Dusun V Desa Banyumas, Stabat, Langkat, Sumut</p>
+            </div>
+            <div class="card">
+              <span>STATUS</span>
+              <p>Belum Menikah</p>
+            </div>
+            <div class="card">
+              <span>AGAMA</span>
+              <p>ISLAM</p>
+            </div>
+            <div class="card">
+              <span>KEWARGANEGARAAN</span>
+              <p>INDONESIA</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="edu-exp" id="edu-exp">
+    <div class="container">
+      <div class="section-header">
+        <h2>Pendidikan & Pengalaman</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="edu-exp-grid">
+        <div class="edu-column">
+          <h3 class="column-title">🎓 Riwayat Pendidikan</h3>
+          <div class="edu-card">
+            <span class="year">2024 - Sekarang</span>
+            <h4>Universitas Muhammadiyah Sumatera Utara</h4>
+            <p>Sistem Informasi</p>
+          </div>
+          <div class="edu-card">
+            <span class="year">2021 - 2024</span>
+            <h4>MAN 3 Langkat</h4>
+            <p>Jurusan IPA</p>
+          </div>
+          <div class="edu-card">
+            <span class="year">2018 - 2021</span>
+            <h4>Ponpes Ulumul Qur'an Stabat</h4>
+          </div>
+          <div class="edu-card">
+            <span class="year">2012 - 2018</span>
+            <h4>SD Negeri 056002</h4>
+          </div>
+        </div>
+
+        <div class="edu-column">
+          <h3 class="column-title">💼 Pengalaman</h3>
+          <div class="edu-card">
+            <span class="year">2024</span>
+            <h4>Freelance Web Developer</h4>
+            <p>Membuat website landing page dan portfolio.</p>
+          </div>
+          <div class="edu-card">
+            <span class="year">2026</span>
+            <h4>Projek Pribadi</h4>
+            <p>Membangun aplikasi sederhana menggunakan HTML, CSS & JavaScript.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h2>Portfolio</h2>
+        <div class="line"></div>
+        <p class="section-subtitle">Beberapa project yang pernah saya kerjakan</p>
+      </div>
+
+      <div class="portfolio-grid">
+        <!-- Project 1 -->
+        <div class="portfolio-card">
+          <img src="Kalkulator.png" alt="Project 1">
+          <div class="portfolio-overlay">
+            <h3>Website Kalkulator Modern</h3>
+            <p>HTML, CSS, JavaScript</p>
+            <a href="#home" class="btn-primary">Lihat Project</a>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="portfolio-card">
+          <img src="Web.jpeg" alt="Project 2">
+          <div class="portfolio-overlay">
+            <h3>Website Data Pribadi</h3>
+            <p>HTML, CSS, JavaScript</p>
+            <a href="#home" class="btn-primary">Lihat Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hobby" id="hobby">
+    <div class="container">
+      <div class="section-header">
+        <h2>Hobi & Minat</h2>
+        <div class="line"></div>
+      </div>
+      <div class="hobby-grid">
+        <div class="hobby-card">💻 Coding</div>
+        <div class="hobby-card">📚 Belajar Teknologi Baru</div>
+        <div class="hobby-card">🎮 Gaming</div>
+        <div class="hobby-card">🎧 Musik</div>
+        <div class="hobby-card">🚀 Artificial Intelligence</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills" id="skills">
+    <div class="container">
+      <h2 class="section-title">Keahlian Saya</h2>
+      <p class="section-subtitle">Teknologi yang saya kuasai</p>
+      <div class="skills__grid">
+        <div class="skill-card">
+          <div class="skill-card__icon">📄</div>
+          <h3>HTML5</h3>
+          <p>Semantic markup dan struktur yang baik.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card__icon">🎨</div>
+          <h3>CSS3</h3>
+          <p>Flexbox, Grid, dan responsive design.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card__icon">⚡</div>
+          <h3>JavaScript</h3>
+          <p>Interaktif dan modern UI logic.</p>
+        </div>
+        <div class="skill-card">
+          <div class="skill-card__icon">⚙</div>
+          <h3>React</h3>
+          <p>Component-based development.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Hubungi Saya</h2>
+      <p class="section-subtitle">Mari bekerja sama</p>
+
+      <form class="contact__form" id="contactForm">
+        <input type="text" id="name" placeholder="Nama Anda" required>
+        <input type="email" id="email" placeholder="Email Anda" required>
+        <textarea id="message" rows="5" placeholder="Pesan Anda" required></textarea>
+        <button type="submit" class="btn-primary">Kirim Pesan</button>
+      </form>
+
+      <div class="contact__socials">
+        <a href="https://wa.me/6285359305023" target="_blank" class="social-btn whatsapp">
+          WhatsApp
+        </a>
+        <a href="https://instagram.com/mrvn_syhd18" target="_blank" class="social-btn instagram">
+          Instagram
+        </a>
+        <a href="mailto:marvinrealme@email.com" class="social-btn email">
+          Email
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 Marvin. Dibuat dengan HTML & CSS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
